@@ -12,6 +12,8 @@ class Post(models.Model):
     content = models.TextField()
     created_date = models.DateField(default=timezone.now)
     published_date = models.DateField(blank=True, null=True)
+    views = models.IntegerField(default=0)
+    tag = models.CharField(max_length=30, blank=True, null=True)
 
 
     def publish(self):

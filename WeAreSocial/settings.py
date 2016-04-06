@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,7 +41,11 @@ INSTALLED_APPS = [
     'WeAreSocial',
     'WeAreSocial_app',
     'blog',
+    'disqus',
+    'django.contrib.sites',
 ]
+
+DISQUS_WEBSITE_SHORTNAME = "shanesblog"
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -128,3 +133,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIR = (
     os.path.join(BASE_DIR, "static"),
 )
+
+
+

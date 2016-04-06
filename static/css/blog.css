@@ -3,17 +3,17 @@
 }
 
 body {
+
     font-family: Arial;
     padding-top: 50px;
 }
 
 footer {
     margin-top: 40px;
-    padding-top:40px;
+    padding-top: 40px;
     padding-bottom: 40px;
     background-color: #ededed;
 }
-
 
 h1, h1 a {
     color: #555555;
@@ -26,23 +26,22 @@ h1, h1 a {
 }
 
 #masthead h1 {
-    font-size:55px;
-    line-height:1;
+    font-size: 55px;
+    line-height: 1;
     margin-top: 50px;
 }
 
-
 #masthead .well {
-    margin-top:31px;
+    margin-top: 31px;
     min-height: 127px;
 }
 
 .navbar.affix {
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
-}
 
+}
 
 #logo {
     color: #12AB82;
@@ -81,10 +80,10 @@ a, a:hover {
 }
 
 .img-container img {
-    min-width:280px;
-    min-height:180px;
+    min-width: 280px;
+    min-height: 180px;
     max-width: 380px;
-    max-height:280px;
+    max-height: 280px;
 }
 
 .txt-container {
@@ -94,7 +93,7 @@ a, a:hover {
 
 .panel .lead {
     overflow: hidden;
-    height:90px;
+    height: 90px;
 }
 
 .label-float {
@@ -108,12 +107,12 @@ a, a:hover {
     color: #fff;
 }
 
-
 @media screen and (min-width: 768px) {
     #masthead h1 {
         font-size: 80px;
     }
+
+    h1{
+        font-size: 50px ;
+    }
 }
-
-
-
